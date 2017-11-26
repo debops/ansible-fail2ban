@@ -20,6 +20,10 @@ after = {{ item.after }}
 {% endfor %}
 
 {% endif %}
-failregex = {{ item.failregex | indent(12) }}
+failregex = {% for regex in item.failregex %}{% if loop.first %}{{ regex }}
+{% else %}
+            {{ regex }}
+{% endif %}
+{% endfor %}
 
 ignoreregex = {{ item.ignoreregex | d('') | indent(14) }}
