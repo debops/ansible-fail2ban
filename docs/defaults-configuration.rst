@@ -67,9 +67,8 @@ List of local ``fail2ban`` filters that should be present or absent when configu
   Optional. Custom definitions used by the filter.
 
 ``failregex``
-  Required. Regular expression(s) used by the filter to detect break-in attempts.
-  You can have the filter try to match multiple regular expressions. Each regular
-  expression should be on its own line.
+  Required. A list of regular expression(s) used by the filter to detect break-in 
+  attempts.
 
 ``filename``
   Optional. Alternative name of the filter configuration file. If not specfied, it
