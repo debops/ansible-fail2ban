@@ -16,6 +16,12 @@ The current role maintainer_ is drybjed_.
 
 .. _debops.fail2ban master: https://github.com/debops/ansible-fail2ban/compare/v0.1.1...master
 
+
+`debops.fail2ban v0.1.2`_ - 2018-01-25
+--------------------------------------
+
+.. _debops.fail2ban master: https://github.com/debops/ansible-fail2ban/compare/v0.1.1...master
+
 Changed
 ~~~~~~~
 
